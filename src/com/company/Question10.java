@@ -17,7 +17,7 @@ public class Question10 {
     String convert = Long.toString(n);
     int stringlength = convert.length();
     int sum = 0;
-    String temp;
+
     for (int i = 0; i < stringlength ; i++) {
       sum = sum + Integer.parseInt(Character.toString(convert.charAt(i)));
     }

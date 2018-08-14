@@ -1,13 +1,12 @@
 package com.company;
-import java.util.*;
 
-public class Question9 {
+import java.util.Arrays;
+
+public class Question15 {
   public static void main(String[] args){
     double mean;
-    double deviation;
-    double number;
+
     mean = 0;
-    deviation = 0;
 
     int[] numbers = new int[10];
     for(int i = 0; i < numbers.length; i++) {
@@ -16,12 +15,17 @@ public class Question9 {
     System.out.println("Numbers Generated: " + Arrays.toString(numbers));
     for (int angka:numbers) {
       mean += angka;
-      deviation += Math.pow(angka, 2);
     }
-    deviation =  Math.sqrt((deviation - (Math.pow(mean, 2) / 10)) / (10 - 1));
+
     mean /= 10;
+    int aboveaveragetracker=0;
+    for (int angka:numbers) {
+      if(angka > mean){
+        aboveaveragetracker+=1;
+      }
+    }
 
     System.out.println("Mean = " + mean);
-    System.out.println("Deviation = "+ deviation);
+    System.out.println("Number above average = "+aboveaveragetracker);
   }
 }
