@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 public class Question15 {
   public static void main(String[] args){
+    System.out.println("15. Write a program that reads ten numbers, computes their average, and finds out how many\n"
+        + "numbers are above the average.");
     double mean;
 
     mean = 0;

@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class Question16 {
   public static void main(String[] args) {
+    System.out.println("16. Write a program that reads ten integers and displays them in the reverse of the order in which\n"
+        + "they were read.");
     int[] numbers = new int[10];
     Scanner scanner = new Scanner( System.in );
 

@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Question14 {
   public static void main(String[] args) {
+    System.out.println("14. Write a method to compute the following series for all I which is an even number:\n"
+        + "m(i)= 4(1−1/3+1/5-1/7+1/9-1/11+1/13- ... - 1/2i-1+1/2i+1)");
     Scanner scanner = new Scanner( System.in );
 
     System.out.print("Enter i: ");

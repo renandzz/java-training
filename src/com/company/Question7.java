@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Question7 {
   public static void main(String[] args) {
-
+    System.out.println("7. Use nested loops that pint the following patterns in four separate programs:\n"
+        + "Pattern I Pattern II Pattern III Pattern IV\n");
 
     Scanner scanner = new Scanner( System.in );
 

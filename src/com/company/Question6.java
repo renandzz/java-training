@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Question6 {
   public static void main(String[] args) {
+    System.out.println("6. Write a program that prompts the user to enter the number of students and each student's\n"
+        + "name and score, and finally displays the student with the highest score.");
     String tempName;
     String highestname= "No Student";
     int highestscore= 0;

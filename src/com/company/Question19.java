@@ -4,8 +4,13 @@ import java.util.Scanner;
 
 public class Question19 {
   public static void main(String[] args) {
-    int[] a = new int[]  {1, 2, 3, 4, 5, 6};
-    double[] b = new double[]  {6.0, 4.4, 1.9, 2.9, 3.4, 3.5};
+    System.out.println("19. Create a class named MyTriangle that contains the following two methods:\n"
+        + "/** Returns true if the sum of any two sides is greater that the third side. */\n"
+        + "public static boolean isValid(double side1, double side2, double side3)\n"
+        + "/** Returns the area of the triangle. */\n"
+        + "public static double area(double side1, double side2, double side3)\n"
+        + "Write a test program that reads three sides for a triangle and computes the area if the input is\n"
+        + "valid. Otherwise, it displays that the input is invalid.");
 
     Scanner scanner = new Scanner( System.in );
     System.out.print("Enter side1: ");
