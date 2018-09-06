@@ -17,3 +17,4 @@ public class Question1 {
     System.out.println(futureInvestmentValue);
   }
 }
+ sudah benar, coba untuk meningkatakan kwalitas ... kalau  kita mengolah data berupa currency atau  uang pada real project harus menggunakan jenis data Bigdecimal.
