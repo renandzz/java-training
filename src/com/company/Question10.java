@@ -27,3 +27,6 @@ public class Question10 {
     return sum;
   }
 }
+
+
+OK
